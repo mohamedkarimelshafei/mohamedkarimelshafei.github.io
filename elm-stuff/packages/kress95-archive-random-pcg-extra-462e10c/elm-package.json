@@ -1,0 +1,28 @@
+{
+    "version": "1.0.1",
+    "summary": "Community's Random.Pcg extras with pcg support",
+    "repository": "https://github.com/kress95/random-pcg-extra.git",
+    "license": "MIT",
+    "source-directories": [
+        "src"
+    ],
+    "exposed-modules": [
+        "Random.Pcg.Array",
+        "Random.Pcg.Char",
+        "Random.Pcg.Color",
+        "Random.Pcg.Date",
+        "Random.Pcg.Dict",
+        "Random.Pcg.Extra",
+        "Random.Pcg.Float",
+        "Random.Pcg.Int",
+        "Random.Pcg.List",
+        "Random.Pcg.Order",
+        "Random.Pcg.Set",
+        "Random.Pcg.String"
+    ],
+    "dependencies": {
+        "elm-lang/core": "5.0.0 <= v < 6.0.0",
+        "mgold/elm-random-pcg": "4.0.2 <= v < 5.0.0"
+    },
+    "elm-version": "0.18.0 <= v < 0.19.0"
+}
